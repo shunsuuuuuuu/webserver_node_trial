@@ -1,9 +1,14 @@
 {
   "name": "web-server",
+  "engine": {
+    "node": "20.16.0",
+    "npm": "10.8.1"
+  },
   "version": "1.0.0",
   "description": "to learn express",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "s-kimura",
