@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私のDEMOサイト</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>私のDEMOサイトへようこそ</h1>
+    </header>
+
+    <img src="img/sadox.jpg" alt="Image 1" width="10%">
+    <img src="img/sadox.jpg" alt="Image 2" width="10%">
+    <img src="img/sadox.jpg" alt="Image 3" width="11%">
+    <img src="img/sadox.jpg" alt="Image 4" width="11%">
+    <img src="img/sadox.jpg" alt="Image 5" width="11%">
+    <img src="img/sadox.jpg" alt="Image 6" width="11%">
+    <img src="img/sadox.jpg" alt="Image 7" width="11%">
+    <img src="img/sadox.jpg" alt="Image 8" width="10%">
+    <img src="img/sadox.jpg" alt="Image 9" width="10%">
+    
+    <h1>Quiz Time!!</h1>
+    <form action="/api/v1/quiz" method="POST"> 
+        <link rel="stylesheet" href="css/styles.css">
+
+        <p>Who is this ojisan?</p>
+        <input type="text" name="answer" placeholder="Enter your answer">
+        <button type="submit">Submit</button>
+    </form>
+
+    <nav>
+        <ul>
+            <li><a href="#home">ホーム</a></li>
+            <li><a href="#about">概要</a></li>
+            <li><a href="#services">サービス</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>メインコンテンツ</h2>
+        <p>ここにメインコンテンツを記述します。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 私のウェブサイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
